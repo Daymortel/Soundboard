@@ -1,10 +1,11 @@
 import React from "react"
-import { Button, StyleSheet, useColorScheme, View } from "react-native"
+import Slider from "react-native-slider"
+import { Button, StyleSheet, Text, useColorScheme, View } from "react-native"
 import { ContextSettings } from "./contexts"
 
-export const Settings = ({ sound }) => {
+export const Settings = () => {
 
-    const { setSpeed } = React.useContext(ContextSettings)
+    const { speed, setSpeed } = React.useContext(ContextSettings)
 
     const update = ({ speed }) => {
         setSpeed(speed)
@@ -13,24 +14,17 @@ export const Settings = ({ sound }) => {
     const theme = useColorScheme()
 
     return (
-        <View style={{flex: 1, alignItems: "center", justifyContent:"space-around", backgroundColor: theme === 'light' ? 'white' : 'black' }}>
-            <Button style={styles.button} title="0.25" onPress={() => update({speed: 0.25})}></Button>
-            <Button style={styles.button} title="0.50" onPress={() => update({speed: 0.50})}></Button>
-            <Button style={styles.button} title="0.75" onPress={() => update({speed: 0.75})}></Button>
-            <Button style={styles.button} title="1.00" onPress={() => update({speed: 1.00})}></Button>
-            <Button style={styles.button} title="1.25" onPress={() => update({speed: 1.25})}></Button>
-            <Button style={styles.button} title="1.50" onPress={() => update({speed: 1.50})}></Button>
-            <Button style={styles.button} title="1.75" onPress={() => update({speed: 1.75})}></Button>
-            <Button style={styles.button} title="2.00" onPress={() => update({speed: 2.00})}></Button>
+        <View style={{ flex: 1, alignItems: "stretch", backgroundColor: theme === 'light' ? 'white' : 'black' }}>
+            <View style={{ width: "80%", marginLeft: "50%", transform: [{ translateX: -175 }]}}>
+                <Slider
+                    value={speed}
+                    minimumValue={0.25}
+                    maximumValue={2}
+                    step={0.25}
+                    onValueChange={(value) => setSpeed(value)}
+                />
+                <Text>{speed}</Text>
+            </View>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    button: {
-        paddingTop: 10,
-        paddingBottom: 10,
-        paddingLeft: 20,
-        paddingRight: 20
-    }
-})

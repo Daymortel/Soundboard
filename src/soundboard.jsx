@@ -58,124 +58,124 @@ export const Soundboard = () => {
 
     return (
         <ScrollView contentContainerStyle={{flexDirection: "row", flexWrap: "wrap", backgroundColor: theme === 'light' ? 'white' : 'black' }}>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(ah)}}>
+            <TouchableOpacity onPress={() => {playSound(ah)}}>
                 <Image style={styles.image} source={ require('../assets/images/ah.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(airhorn)}}>
+            <TouchableOpacity onPress={() => {playSound(airhorn)}}>
                 <Image style={styles.image} source={ require('../assets/images/airhorn.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(banana)}}>
+            <TouchableOpacity onPress={() => {playSound(banana)}}>
                 <Image style={styles.image} source={ require('../assets/images/banana.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(bonjour)}}>
+            <TouchableOpacity onPress={() => {playSound(bonjour)}}>
                 <Image style={styles.image} source={ require('../assets/images/bonjour.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(boulemagique)}}>
+            <TouchableOpacity onPress={() => {playSound(boulemagique)}}>
                 <Image style={styles.image} source={ require('../assets/images/boulemagique.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(buzzer)}}>
+            <TouchableOpacity onPress={() => {playSound(buzzer)}}>
                 <Image style={styles.image} source={ require('../assets/images/buzzer.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(caca)}}>
+            <TouchableOpacity onPress={() => {playSound(caca)}}>
                 <Image style={styles.image} source={ require('../assets/images/caca.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(colere)}}>
+            <TouchableOpacity onPress={() => {playSound(colere)}}>
                 <Image style={styles.image} source={ require('../assets/images/colere.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(degueulasse)}}>
+            <TouchableOpacity onPress={() => {playSound(degueulasse)}}>
                 <Image style={styles.image} source={ require('../assets/images/degueulasse.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(eddymalou)}}>
+            <TouchableOpacity onPress={() => {playSound(eddymalou)}}>
                 <Image style={styles.image} source={ require('../assets/images/eddymalou.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(etchebest)}}>
+            <TouchableOpacity onPress={() => {playSound(etchebest)}}>
                 <Image style={styles.image} source={ require('../assets/images/etchebest.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(honteux)}}>
+            <TouchableOpacity onPress={() => {playSound(honteux)}}>
                 <Image style={styles.image} source={ require('../assets/images/honteux.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(iir)}}>
+            <TouchableOpacity onPress={() => {playSound(iir)}}>
                 <Image style={styles.image} source={ require('../assets/images/iir.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(issou)}}>
+            <TouchableOpacity onPress={() => {playSound(issou)}}>
                 <Image style={styles.image} source={ require('../assets/images/issou.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(jamy)}}>
+            <TouchableOpacity onPress={() => {playSound(jamy)}}>
                 <Image style={styles.image} source={ require('../assets/images/jamy.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(jeanneausecours)}}>
+            <TouchableOpacity onPress={() => {playSound(jeanneausecours)}}>
                 <Image style={styles.image} source={ require('../assets/images/jeanneausecours.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(kiyu)}}>
+            <TouchableOpacity onPress={() => {playSound(kiyu)}}>
                 <Image style={styles.image} source={ require('../assets/images/kiyu.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(kouizine)}}>
+            <TouchableOpacity onPress={() => {playSound(kouizine)}}>
                 <Image style={styles.image} source={ require('../assets/images/kouizine.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(leo)}}>
+            <TouchableOpacity onPress={() => {playSound(leo)}}>
                 <Image style={styles.image} source={ require('../assets/images/leo.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(lpknan)}}>
+            <TouchableOpacity onPress={() => {playSound(lpknan)}}>
                 <Image style={styles.image} source={ require('../assets/images/lpknan.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(lpkputain)}}>
+            <TouchableOpacity onPress={() => {playSound(lpkputain)}}>
                 <Image style={styles.image} source={ require('../assets/images/lpknan.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(macron)}}>
+            <TouchableOpacity onPress={() => {playSound(macron)}}>
                 <Image style={styles.image} source={ require('../assets/images/macron.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(maitreyoda)}}>
+            <TouchableOpacity onPress={() => {playSound(maitreyoda)}}>
                 <Image style={styles.image} source={ require('../assets/images/maitreyoda.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(marine)}}>
+            <TouchableOpacity onPress={() => {playSound(marine)}}>
                 <Image style={styles.image} source={ require('../assets/images/marine.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(melanchon)}}>
+            <TouchableOpacity onPress={() => {playSound(melanchon)}}>
                 <Image style={styles.image} source={ require('../assets/images/melanchon.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(mickey)}}>
+            <TouchableOpacity onPress={() => {playSound(mickey)}}>
                 <Image style={styles.image} source={ require('../assets/images/mickey.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(non)}}>
+            <TouchableOpacity onPress={() => {playSound(non)}}>
                 <Image style={styles.image} source={ require('../assets/images/non.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(oof)}}>
+            <TouchableOpacity onPress={() => {playSound(oof)}}>
                 <Image style={styles.image} source={ require('../assets/images/oof.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(oui)}}>
+            <TouchableOpacity onPress={() => {playSound(oui)}}>
                 <Image style={styles.image} source={ require('../assets/images/oui.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(papa)}}>
+            <TouchableOpacity onPress={() => {playSound(papa)}}>
                 <Image style={styles.image} source={ require('../assets/images/papa.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(peppapig)}}>
+            <TouchableOpacity onPress={() => {playSound(peppapig)}}>
                 <Image style={styles.image} source={ require('../assets/images/peppapig.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(philippe)}}>
+            <TouchableOpacity onPress={() => {playSound(philippe)}}>
                 <Image style={styles.image} source={ require('../assets/images/philippe.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(pingas)}}>
+            <TouchableOpacity onPress={() => {playSound(pingas)}}>
                 <Image style={styles.image} source={ require('../assets/images/pingas.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(rheuh)}}>
+            <TouchableOpacity onPress={() => {playSound(rheuh)}}>
                 <Image style={styles.image} source={ require('../assets/images/rheuh.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(russie)}}>
+            <TouchableOpacity onPress={() => {playSound(russie)}}>
                 <Image style={styles.image} source={ require('../assets/images/russie.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(salaud)}}>
+            <TouchableOpacity onPress={() => {playSound(salaud)}}>
                 <Image style={styles.image} source={ require('../assets/images/salaud.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(sarko)}}>
+            <TouchableOpacity onPress={() => {playSound(sarko)}}>
                 <Image style={styles.image} source={ require('../assets/images/sarko.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(sylvaindurif)}}>
+            <TouchableOpacity onPress={() => {playSound(sylvaindurif)}}>
                 <Image style={styles.image} source={ require('../assets/images/sylvaindurif.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(taisezvous)}}>
+            <TouchableOpacity onPress={() => {playSound(taisezvous)}}>
                 <Image style={styles.image} source={ require('../assets/images/taisezvous.jpg') } />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => {Vibration.vibrate(), playSound(wow)}}>
+            <TouchableOpacity onPress={() => {playSound(wow)}}>
                 <Image style={styles.image} source={ require('../assets/images/wow.jpg') } />
             </TouchableOpacity>
         </ScrollView>
